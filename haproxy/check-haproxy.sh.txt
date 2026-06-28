@@ -1,0 +1,4 @@
+osboxes@hp-a:/usr/local/sbin$ cat /usr/local/bin/check-haproxy.sh
+#!/bin/sh
+systemctl is-active --quiet haproxy
+osboxes@hp-a:/usr/local/sbin$

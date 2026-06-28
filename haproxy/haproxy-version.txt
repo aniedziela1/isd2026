@@ -1,0 +1,7 @@
+osboxes@hp-a:/usr/local/sbin$ sudo haproxy -version
+[sudo] password for osboxes:
+HAProxy version 2.6.12-1+deb12u3 2025/10/03 - https://haproxy.org/
+Status: long-term supported branch - will stop receiving fixes around Q2 2027.
+Known bugs: http://www.haproxy.org/bugs/bugs-2.6.12.html
+Running on: Linux 6.1.0-49-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.174-1 (2026-05-26) x86_64
+osboxes@hp-a:/usr/local/sbin$

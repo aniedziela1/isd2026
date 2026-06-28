@@ -1,0 +1,6 @@
+6: tenant-vrf-A: <NOARP,MASTER,UP,LOWER_UP> mtu 65575 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether ea:25:38:f4:3d:6a brd ff:ff:ff:ff:ff:ff promiscuity 0  allmulti 0 minmtu 1280 maxmtu 65575 
+    vrf table 110 addrgenmode eui64 numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 tso_max_size 65536 tso_max_segs 65535 gro_max_size 65536 
+7: tenant-vrf-B: <NOARP,MASTER,UP,LOWER_UP> mtu 65575 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether b2:9c:b2:ea:3d:5f brd ff:ff:ff:ff:ff:ff promiscuity 0  allmulti 0 minmtu 1280 maxmtu 65575 
+    vrf table 120 addrgenmode eui64 numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 tso_max_size 65536 tso_max_segs 65535 gro_max_size 65536 

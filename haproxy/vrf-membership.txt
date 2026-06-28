@@ -1,0 +1,7 @@
+=== tenant-vrf-A ===
+8: ens36.10@ens36: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master tenant-vrf-A state UP mode DEFAULT group default qlen 1000
+    link/ether 00:0c:29:ee:5b:12 brd ff:ff:ff:ff:ff:ff
+
+=== tenant-vrf-B ===
+9: ens36.20@ens36: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master tenant-vrf-B state UP mode DEFAULT group default qlen 1000
+    link/ether 00:0c:29:ee:5b:12 brd ff:ff:ff:ff:ff:ff

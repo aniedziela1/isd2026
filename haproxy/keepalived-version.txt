@@ -1,0 +1,10 @@
+osboxes@hp-a:/usr/local/sbin$ sudo keepalived -version
+Keepalived v2.2.7 (01/16,2022)
+Copyright(C) 2001-2022 Alexandre Cassen, acassen@gmail.com
+Built with kernel headers for Linux 5.19.11
+Running on Linux 6.1.0-49-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.174-1 (2026-05-26)
+Distro: Debian GNU/Linux 12 (bookworm)
+configure options: --build=x86_64-linux-gnu --prefix=/usr --includedir=${prefix}/include --mandir=${prefix}/share/man --infodir=${prefix}/share/info --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir=${prefix}/lib/x86_64-linux-gnu --runstatedir=/run --disable-maintainer-mode --disable-dependency-tracking --enable-snmp --enable-sha1 --enable-snmp-rfcv2 --enable-snmp-rfcv3 --enable-dbus --enable-json --enable-bfd --enable-regex --with-init=systemd build_alias=x86_64-linux-gnu CFLAGS=-g -O2 -ffile-prefix-map=/build/keepalived-m8ENAG/keepalived-2.2.7=. -fstack-protector-strong -Wformat -Werror=format-security LDFLAGS=-Wl,-z,relro CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2
+Config options: NFTABLES LVS REGEX VRRP VRRP_AUTH VRRP_VMAC JSON BFD OLD_CHKSUM_COMPAT SNMP_V3_FOR_V2 SNMP_VRRP SNMP_CHECKER SNMP_RFCV2 SNMP_RFCV3 DBUS INIT=systemd SYSTEMD_NOTIFY
+System options: VSYSLOG MEMFD_CREATE IPV6_MULTICAST_ALL IPV4_DEVCONF LIBNL3 RTA_ENCAP RTA_EXPIRES RTA_NEWDST RTA_PREF FRA_SUPPRESS_PREFIXLEN FRA_SUPPRESS_IFGROUP FRA_TUN_ID RTAX_CC_ALGO RTAX_QUICKACK RTEXT_FILTER_SKIP_STATS FRA_L3MDEV FRA_UID_RANGE RTAX_FASTOPEN_NO_COOKIE RTA_VIA FRA_PROTOCOL FRA_IP_PROTO FRA_SPORT_RANGE FRA_DPORT_RANGE RTA_TTL_PROPAGATE IFA_FLAGS LWTUNNEL_ENCAP_MPLS LWTUNNEL_ENCAP_ILA NET_LINUX_IF_H_COLLISION LIBIPVS_NETLINK IPVS_DEST_ATTR_ADDR_FAMILY IPVS_SYNCD_ATTRIBUTES IPVS_64BIT_STATS IPVS_TUN_TYPE IPVS_TUN_CSUM IPVS_TUN_GRE VRRP_IPVLAN IFLA_LINK_NETNSID GLOB_BRACE GLOB_ALTDIRFUNC INET6_ADDR_GEN_MODE VRF SO_MARK
+osboxes@hp-a:/usr/local/sbin$
